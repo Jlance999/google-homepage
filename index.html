@@ -3,7 +3,7 @@
     <head>
 
         <link rel="stylesheet" href="googlehomepage.css">
-
+        <script src="https://kit.fontawesome.com/02f549e3ab.js" crossorigin="anonymous"></script>
         <title>Google</title>
     </head>
     <body>
@@ -12,22 +12,45 @@
                 <li><a class="nav-left" href="">About</a></li>
                 <li><a class="nav-left" href="">Store</a></li>
 
-                <li style="float:right"><a class="nav-right" href="">Gmail</a></li>
+                <li id="usericon" style="float: right;"><i class="fas fa-user-circle fa-2x"></i></li>
+                <li id="apps" style="float: right;"><i class="fas fa-th fa-lg"></i></li>
                 <li style="float:right"><a class="nav-right" href="">Images</a></li>
-                <a class="nav-right" href=""></a>
-                <a class="nav-right" href=""></a>
+                <li style="float:right"><a class="nav-right" href="">Gmail</a></li>
             </ul>
         </div>
             
-        <div id="main">
-            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="">
-            <form action="">
-                <input type="search" name="" id="searchbar"> <br>
-                <div class="button-div">
-                    <button>Google Search</button>
-                    <button>I'm Feeling Lucky</button>
-                </div>
-            </form>
+        <div class="main">
+            <img class="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="">
+            <div id="searchbar">
+                <img id="mag" src="https://cdn.pixabay.com/photo/2017/01/13/01/22/magnifying-glass-1976105_960_720.png" alt="">
+                <input id="search">
+                <i class="fas fa-microphone"></i>
+            </div>
+
+            <div class="button-div">
+                <button>Google Search</button>
+                <button>I'm Feeling Lucky</button>
+            </div>
+        </div>
+
+        <div class="lower-container">
+            <div class="lower-left">
+                <a href="">Advertising</a>
+                <a href="">Business</a>
+                <a href="">How Search works</a>
+            </div>
+
+            <div class="lower-middle">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAYCAMAAAAiV0Z6AAAAPFBMVEVLoEN0wU6CzFKCzFKCzFKCzFKCzFJSo0MSczNDmkCCzFJPoUMTczNdr0gmgziCzFITczMTczMTczMTczPh00jOAAAAFHRSTlPF/+bIsms8Ad///hX+//5/tXw7aMEAx10AAACaSURBVHgBbc4HDoRQCATQ33tbvf9dF9QxaCT9UQaltLHOh/golXKhMs5Xqa0xU1lyoa2fXFyQOsDG38qsLy4TaV+sFislovyhPzLJJrBu6eQOtpW0LjbJkzTuTDLRVNKa3uxJI+VdiRqXSeu6GW+Qxi29eLIi8H7EsYrT42BD+mQtNO5JMjRuC4lSY8V4hsLX0egGijvUSEP9AbylEsOkeCgWAAAAAElFTkSuQmCC" alt="">
+                <a href="">Carbon neutral since 2007</a>
+            </div>
+
+            <div class="lower-right">
+                <a href="">Privacy</a>
+                <a href="">Terms</a>
+                <a href="">Settings</a>
+            </div>
+
         </div>
     </body>
 </html>
